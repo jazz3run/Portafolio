@@ -406,9 +406,6 @@ body.dark-theme {
 }
 
 /*=============== SKILLS ===============*/
-.skills__container{
-  row-gap: 3.5rem;
-}
 
 .skills__title{
   display: flex;
@@ -1087,14 +1084,12 @@ body.dark-theme {
     padding-right: 0;
   }
 
-  .skills__container,
   .qualification__container,
   .services__container,
   .contact__container{
     grid-template-columns: repeat(2, max-content);
   }
 
-  .skills__container,
   .services__container{
     column-gap: 5rem;
   }
@@ -1263,10 +1258,6 @@ body.dark-theme {
     grid-template-rows: repeat(3, 130px);
     row-gap: 4rem;
     margin-top: 16rem;
-  }
-
-  .skills__container{
-    column-gap: 10rem;
   }
 
   .skills__title{
